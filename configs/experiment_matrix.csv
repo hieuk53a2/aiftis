@@ -1,0 +1,9 @@
+run_id,model_family,model_size,loss_type,source_dir,model_ref,epochs,imgsz,focal_gamma,focal_alpha,primary_metric
+yolov5m_baseline,yolov5,m,baseline,sources/yolov5,yolov5m.pt,150,640,,,mAP50-95
+yolov5m_focal_cls,yolov5,m,focal_cls,sources/yolov5,yolov5m.pt,150,640,2.0,0.25,mAP50-95
+yolov8m_baseline,yolov8,m,baseline,sources/yolov8,yolov8m.pt,150,640,,,mAP50-95
+yolov8m_focal_cls,yolov8,m,focal_cls,sources/yolov8,yolov8m.pt,150,640,2.0,0.25,mAP50-95
+yolov9m_baseline,yolov9,m,baseline,sources/yolov9,yolov9-m.pt,150,640,,,mAP50-95
+yolov9m_focal_cls,yolov9,m,focal_cls,sources/yolov9,yolov9-m.pt,150,640,2.0,0.25,mAP50-95
+yolo11m_baseline,yolo11,m,baseline,sources/yolo11,yolo11m.pt,150,640,,,mAP50-95
+yolo11m_focal_cls,yolo11,m,focal_cls,sources/yolo11,yolo11m.pt,150,640,2.0,0.25,mAP50-95

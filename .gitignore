@@ -1,0 +1,15 @@
+# Local environments and Python cache
+.conda-yolo/
+__pycache__/
+*.py[cod]
+
+# Generated datasets and benchmark outputs
+# Keep only the top-level directories in git; contents are created locally.
+data/*
+!data/.gitkeep
+experiments/*
+!experiments/.gitkeep
+
+# Local logs and temporary files
+*.log
+.DS_Store
